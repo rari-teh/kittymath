@@ -89,11 +89,13 @@ end;
 procedure TMainForm.DecFieldKeyUp(Sender: TObject; var Key: Word;
   Shift: TShiftState);
 begin
+if DecField.Text = '' then
+  DTField.Text := ''
+else
+begin
 DecField.Text := ZeroKil(10, DecField.Text);
 if DecField.Text = '0' then
   DTField.Text := Char($E000)
-else if DecField.Text = '' then
-  DTField.Text := ''
 else
   begin
     try
@@ -122,14 +124,17 @@ else
     end;
   end;
 end;
+end;
 
 procedure TMainForm.DTFieldKeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
+begin
+if DTField.Text = '' then
+     DecField.Text := ''
+else
 begin
 DTField.Text := ZeroKil(32, DTField.Text);
 if DTField.Text = Char($E000) then
      DecField.Text := '0'
-else if DTField.Text = '' then
-     DecField.Text := ''
 else
   begin
     try
@@ -148,6 +153,7 @@ else
         DecField.Text := 'data error'
     end;
   end;
+end;
 end;
 
 procedure TMainForm.FormClose(Sender: TObject; var Action: TCloseAction);
