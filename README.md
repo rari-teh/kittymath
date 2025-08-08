@@ -26,3 +26,5 @@ im gay
 do what you want cuz a pirate is free (you are a pirate)
 
 genotheta is owned by artifyber. maybe you can’t do what you want with that idk i didn’t ask her (sorry)
+
+kudos to Lu9 for helping me test it a bit ily
