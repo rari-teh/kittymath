@@ -3,8 +3,8 @@ object MainForm: TMainForm
   Top = 0
   BorderStyle = bsDialog
   Caption = 'KittyMath'
-  ClientHeight = 137
-  ClientWidth = 306
+  ClientHeight = 121
+  ClientWidth = 270
   Color = clWhite
   Font.Charset = ANSI_CHARSET
   Font.Color = clBlack
@@ -15,28 +15,28 @@ object MainForm: TMainForm
   OnClose = FormClose
   OnCreate = FormCreate
   PixelsPerInch = 96
-  TextHeight = 17
+  TextHeight = 15
   object DecLabel: TLabel
-    Left = 98
-    Top = 18
-    Width = 58
-    Height = 17
+    Left = 66
+    Top = 16
+    Width = 72
+    Height = 15
     Alignment = taRightJustify
     Caption = 'Decimal:'
   end
   object DTLabel: TLabel
-    Left = 62
-    Top = 58
-    Width = 94
-    Height = 17
+    Left = 12
+    Top = 51
+    Width = 126
+    Height = 15
     Alignment = taRightJustify
     Caption = 'Duotrigesimal:'
   end
   object DecField: TEdit
-    Left = 163
-    Top = 15
-    Width = 128
-    Height = 25
+    Left = 144
+    Top = 13
+    Width = 113
+    Height = 23
     Alignment = taRightJustify
     Color = clWhite
     MaxLength = 10
@@ -46,15 +46,15 @@ object MainForm: TMainForm
     OnKeyUp = DecFieldKeyUp
   end
   object DTField: TEdit
-    Left = 163
-    Top = 54
-    Width = 128
-    Height = 26
+    Left = 144
+    Top = 48
+    Width = 113
+    Height = 23
     Alignment = taRightJustify
     Color = clWhite
     Font.Charset = ANSI_CHARSET
     Font.Color = clBlack
-    Font.Height = -16
+    Font.Height = -15
     Font.Name = 'Artitype D'
     Font.Style = []
     MaxLength = 7
@@ -64,20 +64,20 @@ object MainForm: TMainForm
     OnKeyUp = DTFieldKeyUp
   end
   object CopyBtn: TButton
-    Left = 163
-    Top = 94
-    Width = 128
-    Height = 28
+    Left = 144
+    Top = 83
+    Width = 113
+    Height = 25
     Caption = 'copy'
     Default = True
     TabOrder = 2
     OnClick = CopyBtnClick
   end
   object AboutBtn: TButton
-    Left = 18
-    Top = 94
-    Width = 128
-    Height = 28
+    Left = 16
+    Top = 83
+    Width = 113
+    Height = 25
     Caption = 'About'
     TabOrder = 3
     OnClick = AboutBtnClick

@@ -14,7 +14,9 @@ none!!!!!! fr ts probably can run on windows 2000 lol i made it in an ancient ve
 
 ## FAQ
 - **Wait a goddamn minute, how are you typing genotheta numerals???**\
-With a custom font, duh. Arti has her own genotheta font, but as far as I know, that’s private. So I made my own font. With blackjack and hookers. The numerals are encoded on the first 32 characters of the Private Use Area, so they’re neat and easy to work with. I’ll sure eventually properly publish the font family somewhere, but for now you can just download ArtitypeD.ttf from the source and install it locally, I guess (KittyMath does not require the font to be installed to work or display properly).
+With a custom font, duh. Arti has her own genotheta font, but as far as I know, that’s ~~private~~ [***published on her cool ass site!!!!!!***](https://artifyber.xyz/?m=converters&i=genotheta). So I made my own font. With blackjack and hookers. The numerals are encoded on the first 32 characters of the Private Use Area, so they’re neat and easy to work with. I’ll sure eventually properly publish the font family somewhere, but for now you can just download ArtitypeD.ttf from the source and install it locally, I guess (KittyMath does not require the font to be installed to work or display properly).
+- **wait did i catch that right your font’s numbers aren’t compatible with her font’s numbers**\
+listen dude i wanted to change my system font to gentotheta and then clap my hands together in glee, i can’t do that if i can’t tell when a number is supposed to be base-10 or base-32 okay i’d go insane (because im totally sane rn)
 - **Who the hell are you????**\
 I don’t know either! lmk if you find that out
 - **ugly aah app 💀**\
